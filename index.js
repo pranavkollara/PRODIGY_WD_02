@@ -16,6 +16,7 @@ let timer;
 
 startBtn.addEventListener("click", () => {
   timer = true;
+  //For the first second to wait
   setTimeout(() => {
     start();
   }, 1000);
