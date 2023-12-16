@@ -16,7 +16,10 @@ let timer;
 
 startBtn.addEventListener("click", () => {
   timer = true;
-  start();
+  setTimeout(() => {
+    start();
+  }, 1000);
+  
   lapDiv.classList.remove("hidden");
   resetDiv.classList.remove("hidden");
   pauseDiv.classList.remove("hidden");
