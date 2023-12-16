@@ -15,9 +15,6 @@ font-family: 'Teko', sans-serif; */
 }
 
 body {
-  height: 100%;
-  width: 100%;
-  /* background-color: rgb(56, 56, 255); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +32,6 @@ body {
   margin: auto;
   max-height: 350px;
   max-width: 350px;
-
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -50,7 +46,6 @@ body {
 
 .timer {
   display: flex;
-
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -62,17 +57,12 @@ body {
 
 .btns {
   display: flex;
-
   justify-content: space-around;
 }
 
 i {
   font-size: min(50px, 6vw);
   color: black;
-}
-
-.size {
-  margin-right: -10px;
 }
 
 .lap {
